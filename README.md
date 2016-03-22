@@ -1,2 +1,2 @@
 # ShowMovie
-<p>Demo para isntalar libreria de javascript </p>
+<p>Demo para instalar libreria de javascript </p>
