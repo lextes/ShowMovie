@@ -1,5 +1,5 @@
 
-function showGenre(){
+function readGenres(){
 
 	var genres=["Terror", "Comedia", "Infantil", "Drama"];
 
