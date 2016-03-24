@@ -1,13 +1,9 @@
 
-function showGenre(genre){
+function showGenre(){
 
-	var genre=genre-1;
-	var genders["Terror", "Comedia", "Infantil", "Drama"]
+	var genres=["Terror", "Comedia", "Infantil", "Drama"];
 
-	if (genders[genre]!=null){
-	return genders[genre]
-} else {
-	throw "No hay ese genero"
+	return genres
 }
 
 
