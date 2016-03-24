@@ -1,12 +1,15 @@
 
-genre = new Array (4);
-genre[0] = "Terror"
-genre[1] = "Comedia"
-genre[2] = "Infantil"
-genre[3] = "Drama"
+function showGenre(genre){
 
-function genre (){
-	alert("muevete")
+	var genre=genre-1;
+	var genders["Terror", "Comedia", "Infantil", "Drama"]
 
+	if (genders[genre]!=null){
+	return genders[genre]
+} else {
+	throw "No hay ese genero"
 }
+
+
+
 
