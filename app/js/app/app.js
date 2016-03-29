@@ -19,4 +19,5 @@ var dropdown = document.getElementById('dropdown');
 
 addOptions(dropdown, readGenres());
 
-	console.log("dropdown");
+	console.log(dropdown);
+
