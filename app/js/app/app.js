@@ -20,16 +20,8 @@ var dropdown = document.getElementById('dropdown');
 addOptions(dropdown, readGenres());
 
 dropdown.onchange=function(){
-   console.log(dropdown);   
-
+	var x = document.getElementById('dropdown').value;
+	document.getElementById('onegenre').innerHTML= "" + x;
 }
 
- function mayores (numeros){
-   var m = -1;
-   for(var i=0; i < numeros.length; i++){
-     if (numeros[i] > m){
-       m = numeros[i];
-     }
-   }
-   return m;
- }
+ 
