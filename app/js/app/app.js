@@ -20,8 +20,7 @@ var dropdown = document.getElementById('dropdown');
 addOptions(dropdown, readGenres());
 
 dropdown.onchange=function(){
-	var x = document.getElementById('dropdown').value;
-	document.getElementById('onegenre').innerHTML= "" + x;
+	selectedGenre.innerHTML = this.value;
 }
 
  
