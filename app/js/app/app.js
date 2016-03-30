@@ -19,5 +19,17 @@ var dropdown = document.getElementById('dropdown');
 
 addOptions(dropdown, readGenres());
 
-	console.log(dropdown);
+dropdown.onchange=function(){
+   console.log(dropdown);   
 
+}
+
+ function mayores (numeros){
+   var m = -1;
+   for(var i=0; i < numeros.length; i++){
+     if (numeros[i] > m){
+       m = numeros[i];
+     }
+   }
+   return m;
+ }
