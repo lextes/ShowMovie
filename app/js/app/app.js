@@ -15,7 +15,13 @@ function addOptions(d, data){
     }
 }
 
-var dropdown = document.getElementById('dropdown');
+var dropdown = document.getElementById('dropdown'),
+	selectedGenre = document.getElementById('selectedGenre');
 
 addOptions(dropdown, readGenres());
 
+dropdown.onchange=function(){
+	selectedGenre.innerHTML = this.value;
+}
+
+ 
