@@ -27,7 +27,8 @@ dropdown.onchange=function(){
 }
 
 function url (){
-	var url = ("?genre=Drama&id=3")()
+	var url = ("?genre=Drama&id=3")();
 	propiedades=url.split("&");
+
 }
 
