@@ -16,6 +16,9 @@ function addOptions(d, data){
 }
 
 var dropdown = document.getElementById('dropdown');
+	selectedGenre = document.getElementById('selectedGenre');
+  
+
 
 addOptions(dropdown, readGenres());
 
@@ -23,4 +26,8 @@ dropdown.onchange=function(){
 	selectedGenre.innerHTML = this.value;
 }
 
- 
+function url (){
+	var url = ("?genre=Drama&id=3")()
+	propiedades=url.split("&");
+}
+
