@@ -28,7 +28,8 @@ dropdown.onchange=function(){
 
 function getQuery(Query){
 	var url = "?genre=Drama&id=3";
-	url.split('?')[0] 
+	var res= str.replace("?genre=Drama&id=3", "genre=Drama&id=3");
+	document.getElementById("url").innerHTML = res;
 	var propiedades=url.split("&");
 }
 
