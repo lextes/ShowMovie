@@ -26,10 +26,10 @@ dropdown.onchange=function(){
 	selectedGenre.innerHTML = this.value;
 }
 
+
 function getQuery(Query){
 	var url = "?genre=Drama&id=3";
-	var res= str.replace("?genre=Drama&id=3", "genre=Drama&id=3");
-	document.getElementById("url").innerHTML = res;
+	var newUrl= url.replace("?genre=Drama&id=3", "genre=Drama&id=3");
 	var propiedades=url.split("&");
 }
 
