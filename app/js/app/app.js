@@ -15,10 +15,8 @@ function addOptions(d, data){
     }
 }
 
-var dropdown = document.getElementById('dropdown');
+var dropdown = document.getElementById('dropdown'),
 	selectedGenre = document.getElementById('selectedGenre');
-  
-
 
 addOptions(dropdown, readGenres());
 
@@ -44,4 +42,12 @@ function getQuery(q){
         result[fields[0]] = value;
     }
     return result;
+}
+
+if(location.search){
+	var queryObject = getQuery(location.search);
+	if(queryObject.genre){
+		dropdown.value = queryObject.genre;
+		selectedGenre.innerHTML = queryObject.genre;
+	}
 }
