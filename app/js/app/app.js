@@ -16,6 +16,32 @@ function addOptions(d, data){
 }
 
 var dropdown = document.getElementById('dropdown');
+	selectedGenre = document.getElementById('selectedGenre');
+  
+
 
 addOptions(dropdown, readGenres());
 
+dropdown.onchange=function(){
+	selectedGenre.innerHTML = this.value;
+}
+
+
+function getQuery(q){
+    q = q.replace('?', '');
+
+    var values = q.split('&'),
+        result = {};
+    for(var i=0; i<values.length; i++){
+        var fields = values[i].split('=');
+        if(fields.length == 0){
+            continue;
+        }
+        var value = null;
+        if(fields.length == 2){
+            value = fields[1];
+        }
+        result[fields[0]] = value;
+    }
+    return result;
+}
