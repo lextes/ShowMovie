@@ -28,7 +28,6 @@ dropdown.onchange=function(){
 }
 
 
-
 function getQuery(q){
     q = q.replace('?', '');
 
@@ -46,4 +45,12 @@ function getQuery(q){
         result[fields[0]] = value;
     }
     return result;
+}
+
+if(location.search){
+	var queryObject = getQuery(location.search);
+	if(queryObject.genre){
+		dropdown.value = queryObject.genre;
+		selectedGenre.innerHTML = queryObject.genre;
+	}
 }
