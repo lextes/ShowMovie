@@ -27,9 +27,17 @@ dropdown.onchange=function(){
 }
 
 
-function getQuery(changeurl){
-	var url = "?genre=Drama&id=3";
-	var newUrl= url.replace("?genre=Drama&id=3", "genre=Drama&id=3");
-	var propiedades=newUrl.split("&");
+function getQuery(url){
+		url = url.replace("?", "");
+	var propiedades=url.split("&");
+
+	var propiedad1=propiedades[0].split("=");
+	var propiedad2=propiedades[1].split("=");
+	
+	propiedadFinal1=propiedad1[1];
+	propiedadFinal2=propiedad2[1];
+
+	return propiedadFinal1
+	return propiedadFinal2
 }
 
