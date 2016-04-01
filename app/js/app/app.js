@@ -27,15 +27,21 @@ dropdown.onchange=function(){
 }
 
 
-function getQuery(url){
-		url = url.replace("?", "");
-	var propiedades=url.split("&");
-	var propiedad=propiedades[0].split("=");
+function getQuery(q){
+    q = q.replace('?', '');
 
-for (var i =0. 1< propiedades.length; i++) {
-	
+    var values = q.split('&'),
+        result = {};
+    for(var i=0; i<values.length; i++){
+        var fields = values[i].split('=');
+        if(fields.length == 0){
+            continue;
+        }
+        var value = null;
+        if(fields.length == 2){
+            value = fields[1];
+        }
+        result[fields[0]] = value;
+    }
+    return result;
 }
-
-	
-}
-
