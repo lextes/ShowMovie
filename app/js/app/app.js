@@ -30,6 +30,6 @@ dropdown.onchange=function(){
 function getQuery(Query){
 	var url = "?genre=Drama&id=3";
 	var newUrl= url.replace("?genre=Drama&id=3", "genre=Drama&id=3");
-	var propiedades=url.split("&");
+	var propiedades=newUrl.split("&");
 }
 
