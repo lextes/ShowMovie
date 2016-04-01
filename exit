@@ -1,0 +1,319 @@
+[33mcommit 6c996a86d257efe62ea89b48021a870e463f6166[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 31 23:39:46 2016 -0400
+
+    Avances #15
+
+[33mcommit eb13f0e56f07f9fb5882ced364575c22fada1b28[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 31 21:01:38 2016 -0400
+
+    avances #15
+
+[33mcommit 396378c59cb8ab11d7301f995bb007aef2c87f06[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 31 20:22:23 2016 -0400
+
+    avances #15
+
+[33mcommit edeec54c874569f75d60e3f1305bb45a90c4695e[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 31 20:20:35 2016 -0400
+
+    avances #15
+
+[33mcommit 5d1ddc6d50ba6a113d9ebef67a55d12880e47826[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 31 18:56:39 2016 -0400
+
+    avances #15
+
+[33mcommit 73b4f6fbe8f0273eac9b6a5fa01a051f05db0e7a[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 31 18:30:01 2016 -0400
+
+    avances #15
+
+[33mcommit fe3ba8b74a048eb9156dd3ce98602b7b11dcf924[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 31 18:13:17 2016 -0400
+
+    avances #15
+
+[33mcommit 81116faf20c3b51b7be494a1248f99df89413e59[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 31 18:04:39 2016 -0400
+
+    avances #15
+
+[33mcommit 650a50607974f0b6c747ea680bea4fda814d1e42[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 30 14:08:10 2016 -0400
+
+    fixes #9
+
+[33mcommit 860acce06ebe02f68be0c67ebf146b79924f1b3e[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 30 13:16:48 2016 -0400
+
+    fixes #9
+
+[33mcommit 371b9fc904de87ac963a0a2e8e168c493dd8172d[m
+Author: lextes <forza1708@gmail.com>
+Date:   Tue Mar 29 21:46:55 2016 -0400
+
+    avances #9
+
+[33mcommit 1f93479603c617f7e9f1daa082370e117c225c44[m
+Author: lextes <forza1708@gmail.com>
+Date:   Mon Mar 28 22:22:02 2016 -0400
+
+    avances del #9
+
+[33mcommit 8f68425b8d7e53cef772c74f018ff6a860cbb5ef[m
+Author: lextes <forza1708@gmail.com>
+Date:   Mon Mar 28 19:16:21 2016 -0400
+
+    avances feature #9
+
+[33mcommit 99d97fbb7a4042747cec47fe2cad4f06b8dfd7eb[m
+Author: lextes <forza1708@gmail.com>
+Date:   Mon Mar 28 12:51:02 2016 -0400
+
+    fixes #8
+
+[33mcommit b206cff69a35ea3e516c621b3d7371da015595d0[m
+Merge: 84771f7 c4aa1ca
+Author: lextes <forza1708@gmail.com>
+Date:   Mon Mar 28 12:33:47 2016 -0400
+
+    fixes #7
+
+[33mcommit c4aa1ca7580b473e6d61b52b477b3b37d94bd8f9[m
+Merge: 7f044a7 9b6daa4
+Author: Mauricio Leyzaola <mauleyzaola@users.noreply.github.com>
+Date:   Mon Mar 28 12:21:59 2016 -0600
+
+    Merge pull request #10 from lextes/feature/7
+    
+    Feature/7
+
+[33mcommit 84771f70cbbbd837b4a0d17941768ba730e1e8d1[m
+Author: lextes <forza1708@gmail.com>
+Date:   Mon Mar 28 12:00:58 2016 -0400
+
+    fixes #7
+
+[33mcommit 9b6daa49ffe98ad43f560b944b86fe0d4143c22d[m
+Author: lextes <forza1708@gmail.com>
+Date:   Mon Mar 28 11:51:27 2016 -0400
+
+    avances de feature #7
+
+[33mcommit 3a5ffaae6d9a417c986932f6870a7f21d38785c7[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 24 22:47:02 2016 -0400
+
+    avances issue #7
+
+[33mcommit b7047318697e55821fa0ddc1252c79eedeb86bb5[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 24 22:42:22 2016 -0400
+
+    avances del bug #7
+
+[33mcommit 7f044a7c813c6d1aa0c172769b887f039930b6fd[m
+Merge: 3de5a81 cbe2cf0
+Author: Mauricio Leyzaola <mauleyzaola@users.noreply.github.com>
+Date:   Thu Mar 24 13:07:01 2016 -0600
+
+    Merge pull request #6 from lextes/feature/4
+    
+    Feature/4
+
+[33mcommit cbe2cf0de9b8b7552740302c377e5e812b0282d4[m
+Merge: 1387b71 98c6cc2
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 24 13:03:44 2016 -0400
+
+    fixes #4
+
+[33mcommit 1387b71f7b352fcdc98535c886a28ec70e078455[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 24 12:50:58 2016 -0400
+
+    avances #4
+
+[33mcommit 7a1326fb65a214082c3bc68508562ac2664f9524[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 24 12:42:49 2016 -0400
+
+    Avances feature #4
+
+[33mcommit 823f2abec1308dcadb18bb593a9d915506f3a39e[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 24 12:34:50 2016 -0400
+
+    trabajo en progreso #4
+
+[33mcommit 98c6cc2569930c1b2fe925b527415f0ed5264cd9[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 24 12:14:29 2016 -0400
+
+    fixes #4
+
+[33mcommit 32c09af52fac2ab41a8c51a24b7ea9d4b5c3103d[m
+Author: lextes <forza1708@gmail.com>
+Date:   Thu Mar 24 08:30:33 2016 -0400
+
+    fixes #4
+
+[33mcommit 6d82a325fd06679315a126a82849c73c17a470bd[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 23:57:07 2016 -0400
+
+    fixes #4
+
+[33mcommit 3de5a81b484799fc1825b1f9bd6073c8ede97854[m
+Merge: 5292b79 e79c49e
+Author: Mauricio Leyzaola <mauleyzaola@users.noreply.github.com>
+Date:   Wed Mar 23 21:07:09 2016 -0600
+
+    Merge pull request #5 from lextes/feature/3
+    
+    fixes #3
+
+[33mcommit 4ff16a25cb3529142278ae824f929989787e0fc4[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 22:04:25 2016 -0400
+
+    fixes #3
+
+[33mcommit e79c49ee8971b09c67943cab59181df39e14b551[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 21:05:07 2016 -0400
+
+    fixes #3
+
+[33mcommit 7b2c615fb583c4bc8690d034d44e6268bad341ae[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 20:59:15 2016 -0400
+
+    fixes #3
+
+[33mcommit 4d34f99475a0440417825220e224882b1bfab94d[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 20:35:37 2016 -0400
+
+    fixes #3
+
+[33mcommit 1e4e5fbc27a950f136bc6b490b9dbe0446c48400[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 20:33:48 2016 -0400
+
+    fixes #3
+
+[33mcommit 314abda44a7b424a038dabef24d040b909bb8439[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 20:10:18 2016 -0400
+
+    elimine archivos de imagen
+
+[33mcommit 244369c49cdaa1b8306a5e3b0d309cce739ba53d[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 20:04:32 2016 -0400
+
+    feature/4
+
+[33mcommit 39d0b6b4a7219bef01562888da783df572a6ad56[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 17:49:07 2016 -0400
+
+    fixes #3
+
+[33mcommit b2c42c6a9f54e4f73cac137f38920bf6702a2bdc[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 17:42:38 2016 -0400
+
+    Elimine el archivo bootstrap-theme.min.css
+
+[33mcommit 6a282ab4261c6644ad79a0919297921240601867[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 17:41:41 2016 -0400
+
+    Elimine el archivo bootstrap-theme.css
+
+[33mcommit 925a5f006800826d51463d44464020fe2f389874[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 17:40:38 2016 -0400
+
+    Elimine el archivo bootstrap.min.js
+
+[33mcommit 534d9edba8ed4d40cf46819c32ec362cc7591c53[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 17:34:27 2016 -0400
+
+    Elimine bootstrap.css de la carpeta stylesheets
+
+[33mcommit cdb24c6beec92d401ba835bad18d7beea24ca522[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 17:25:50 2016 -0400
+
+    elimine archivo jquery.js
+
+[33mcommit 024764c2ad968933aa8b7d21160211a648e31b14[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 17:24:22 2016 -0400
+
+    elimine archivo bootstrap.min.js
+
+[33mcommit 6d4d3cc8e7751f2c374fd5c01c71a845db1d2e3d[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 17:22:04 2016 -0400
+
+    elimine archivo bootstrap.js de la carpeta js
+
+[33mcommit aa181c2bbb40112957c5f2016d64a8de5a17a7ff[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 17:02:33 2016 -0400
+
+    elimine archivo index.html
+
+[33mcommit b724ea0ba6f68f05098a4927f203e6d7070b173f[m
+Author: lextes <forza1708@gmail.com>
+Date:   Wed Mar 23 16:53:35 2016 -0400
+
+    Elimine el archivo config.json
+
+[33mcommit fa25542ccb172becd96270129c17230e20249776[m
+Author: lextes <forza1708@gmail.com>
+Date:   Tue Mar 22 21:29:52 2016 -0400
+
+    fixes #3
+
+[33mcommit 5292b79a7de6685da1f73da64dd3faf6f5d3bb80[m
+Merge: 6cb384b 5831083
+Author: Mauricio Leyzaola <mauleyzaola@users.noreply.github.com>
+Date:   Tue Mar 22 15:57:32 2016 -0600
+
+    Merge pull request #2 from lextes/feature/1
+    
+    features/1
+
+[33mcommit 5831083baad4044831061c3bf7ba2e055b514977[m
+Author: lextes <forza1708@gmail.com>
+Date:   Tue Mar 22 15:06:27 2016 -0400
+
+    features/1
+
+[33mcommit 6cb384b75472c0918be37e2e37d2933070d98ea0[m
+Author: lextes <forza1708@gmail.com>
+Date:   Tue Mar 22 12:13:56 2016 -0400
+
+    Update README.md
+
+[33mcommit 4f7f312bca872c038db0070c969e914cc3dea450[m
+Author: lextes <forza1708@gmail.com>
+Date:   Tue Mar 22 11:31:48 2016 -0400
+
+    Create README.md

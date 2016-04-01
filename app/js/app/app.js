@@ -30,14 +30,12 @@ dropdown.onchange=function(){
 function getQuery(url){
 		url = url.replace("?", "");
 	var propiedades=url.split("&");
+	var propiedad=propiedades[0].split("=");
 
-	var propiedad1=propiedades[0].split("=");
-	var propiedad2=propiedades[1].split("=");
+for (var i =0. 1< propiedades.length; i++) {
 	
-	propiedadFinal1=propiedad1[1];
-	propiedadFinal2=propiedad2[1];
+}
 
-	return propiedadFinal1
-	return propiedadFinal2
+	
 }
 
