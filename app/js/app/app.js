@@ -19,7 +19,6 @@ var dropdown = document.getElementById('dropdown');
 	selectedGenre = document.getElementById('selectedGenre');
   
 
-
 addOptions(dropdown, readGenres());
 
 dropdown.onchange=function(){
@@ -45,3 +44,21 @@ function getQuery(q){
     }
     return result;
 }
+
+
+
+function displayArray (dN, dataN){
+    for(var i=0; i<dataN.length; i++){
+        var num = document.createElement('listaNum');
+        num.text = dataN[i];
+        text += "" + i + "<br>";
+        dN.add(num);
+    }
+}
+
+var listaNum = document.getElementById('listaNum');
+	listaVerti = document.getElementById('listaVerti');
+
+displayArray(listaNum,"");
+
+
