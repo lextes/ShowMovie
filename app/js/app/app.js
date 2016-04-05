@@ -47,18 +47,5 @@ function getQuery(q){
 
 
 
-function displayArray (dN, dataN){
-    for(var i=0; i<dataN.length; i++){
-        var num = document.createElement('listaNum');
-        num.text = dataN[i];
-        text += "" + i + "<br>";
-        dN.add(num);
-    }
-}
-
-var listaNum = document.getElementById('listaNum');
-	listaVerti = document.getElementById('listaVerti');
-
-displayArray(listaNum,"");
 
 
