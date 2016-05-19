@@ -1,7 +1,7 @@
 
 function readGenres(){
 
-	var genres=["Terror", "Comedia", "Infantil", "Drama"];
+	var genres=["Comedy", "horror", "Drama", "Fantasy"];
 
 	return genres
 }
@@ -20,15 +20,14 @@ var dropdown = document.getElementById('dropdown');
 	selectedGenre = document.getElementById('selectedGenre');
 
 
-
-addOptions(dropdown, readGenres());
+addOptions(dropdown,readGenres());
 
 dropdown.onchange=function(){
 	selectedGenre.innerHTML = this.value;
 }
 
 
-function getQuery(q){
+/*function getQuery(q){
     q = q.replace('?', '');
 
     var values = q.split('&'),
@@ -45,15 +44,15 @@ function getQuery(q){
         result[fields[0]] = value;
     }
     return result;
-}
+}*/
 
-if(location.search){
+/*if(location.search){
 	var queryObject = getQuery(location.search);
 	if(queryObject.genre){
 		dropdown.value = queryObject.genre;
 		selectedGenre.innerHTML = queryObject.genre;
 	}
-}
+}*/
 
 var movies = [
            {
@@ -213,5 +212,5 @@ var movies = [
 
 
 var getMovies = function(){
-   return db;
+   return movies;
 }
