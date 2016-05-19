@@ -64,7 +64,7 @@ var movies = [
                summary:"A former Special Forces operative turned mercenary is subjected to a rogue experiment that leaves him with accelerated healing powers, adopting the alter ego Deadpool",
                genre:"Comedy"
            }
-            {
+           {
                url:"http://www.imdb.com/title/tt2948356/",
                imageUrl:"http://ia.media-imdb.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_UX182_CR0,0,182,268_AL_.jpg",
                title:"Zootopia",
