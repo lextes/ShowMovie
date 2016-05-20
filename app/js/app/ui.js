@@ -22,7 +22,7 @@ var addOptions = function (d, data){
  * @returns {string}
  */
 var movieTemplate = function(movie){
-    return '<div><h5>' + movie.title + ' (' + movie.year + ') <p>' + movie.summary+'</p></5></div>';
+    return '<div><a href="' + movie.url + '"><h5>' + movie.title + ' (' + movie.year + ')</h5></a><p>' + movie.summary + '</p></div>';
 };
 
 /**
