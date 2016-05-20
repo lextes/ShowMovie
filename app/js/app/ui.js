@@ -22,7 +22,7 @@ var addOptions = function (d, data){
  * @returns {string}
  */
 var movieTemplate = function(movie){
-    return '<div><h5>' + movie.title + ' (' + movie.year + ')</h5></div>';
+    return '<div><h5>' + movie.title + ' (' + movie.year + ') <p>' + movie.summary+'</p></5></div>';
 };
 
 /**
@@ -57,4 +57,13 @@ dropdown.onchange=function(){
 var divMovies = document.getElementById("movie-container");
 
 // agregamos manualmente el primer elemento de la base de datos
-addMovie(divMovies, readMovies()[0]);
+addMovie(divMovies, readMovies()[18]); 
+
+	for (var m = 0; m < readMovies().length; m++){
+		 addMovie(divMovies, readMovies()[m]);
+	}
+
+
+
+
+
