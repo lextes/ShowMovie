@@ -16,11 +16,20 @@ var addOptions = function (d, data){
     }
 };
 
+/**
+ * genera el codigo html necesario para pintar una pelicula
+ * @param movie el objeto de la pelicula
+ * @returns {string}
+ */
 var movieTemplate = function(movie){
-    var tpl = '<div><h5>' + movie.title + ' (' + movie.year + ')</h5></div>';
-    return tpl;
+    return '<div><h5>' + movie.title + ' (' + movie.year + ')</h5></div>';
 };
 
+/**
+ * agrega una pelicula a un contenedor html
+ * @param container el contenedor (div por ejemplo)
+ * @param movie el objeto pelicula
+ */
 var addMovie = function(container, movie){
     container.insertAdjacentHTML('beforeend', movieTemplate(movie));
 };
