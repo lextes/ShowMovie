@@ -16,6 +16,15 @@ var addOptions = function (d, data){
     }
 };
 
+var movieTemplate = function(movie){
+    var tpl = '<div><h5>' + movie.title + ' (' + movie.year + ')</h5></div>';
+    return tpl;
+};
+
+var addMovie = function(container, movie){
+    container.insertAdjacentHTML('beforeend', movieTemplate(movie));
+};
+
 
 var     dropdown = document.getElementById('dropdown'),
 	    selectedGenre = document.getElementById('selectedGenre');
@@ -31,3 +40,12 @@ addOptions(dropdown,readGenres());
 dropdown.onchange=function(){
 	selectedGenre.innerHTML = this.value;
 };
+
+
+/**
+ * creamos una variable que apunta al div que va a contener todas las peliculas
+ */
+var divMovies = document.getElementById("movie-container");
+
+// agregamos manualmente el primer elemento de la base de datos
+addMovie(divMovies, readMovies()[0]);
