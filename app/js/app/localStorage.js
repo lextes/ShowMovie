@@ -50,3 +50,9 @@ var saveLocalStg = function(data){
 	var json = JSON.stringify(data);
 	localStorage.setItem(createKey(data.id), json);
 }
+
+var moveMovies = function(){
+	for(var i = 0; i < movies.length; i++){
+		saveLocalStg(movies[i]);
+	}
+}
