@@ -32,7 +32,7 @@ var allKeys = function(){
 }
 
 var loadLocalStg = function(id){
-	var data = localStorage.getItem(createKey(id));
+	var data = localStorage.getItem(id);
 	if(data == null){		
 		throw("cannot find any item with id:" + id);
 	}
