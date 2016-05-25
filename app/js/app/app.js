@@ -40,5 +40,5 @@ var loadMovie = function(id){
  * @param id el identificador de la movie
  */
 var removeMovie = function(id){
-    throw ("no esta implementado aun");
+    return removeLocalStg(id);
 };

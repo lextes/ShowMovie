@@ -78,4 +78,12 @@ var loadAllStg = function(){
 		keys = allKeys();
 		keys.map(function(k){ res.push(loadLocalStg(k.replace(lsPreffix, ""))); });
 	return res;
-}
+};
+
+/**
+ * debe eliminar una movie de la base de datos
+ * @param id el identificador de la movie
+ */
+var removeLocalStg = function(id){
+    throw ("no esta implementado aun");
+};
