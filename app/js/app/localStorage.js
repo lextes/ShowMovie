@@ -31,28 +31,51 @@ var allKeys = function(){
 	return res;
 }
 
+
+/**
+ * devuelve un objeto movie
+ * @param id el identificador de la movie sin prefijo
+ */
 var loadLocalStg = function(id){
-	var data = localStorage.getItem(id);
+	var data = localStorage.getItem(createKey(id));
 	if(data == null){		
 		throw("cannot find any item with id:" + id);
 	}
 	return JSON.parse(data);
 }
 
+/**
+ * crea o actualiza una movie, si el id no existe uno es creado automaticamente
+ * @param data
+ */
 var saveLocalStg = function(data){
 	if(!data){
 		throw("missing data");
 	} else if (!data.id){
-		//si no tenemos un id, hay que asignarlo para poder diferenciar de cualquier otro objeto
 		data.id = createId();
 	}
 
 	var json = JSON.stringify(data);
 	localStorage.setItem(createKey(data.id), json);
+    return data;
 }
 
+/**
+ * copia las movies desde el arreglo estatico hacia localStorage
+ */
 var moveMovies = function(){
 	for(var i = 0; i < movies.length; i++){
 		saveLocalStg(movies[i]);
 	}
+}
+
+/**
+ * devuelve todas las movies como un arreglo
+ * @returns {Array}
+ */
+var loadAllStg = function(){
+	var res = [],
+		keys = allKeys();
+		keys.map(function(k){ res.push(loadLocalStg(k.replace(lsPreffix, ""))); });
+	return res;
 }
